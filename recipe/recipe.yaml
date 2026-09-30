@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.7.0"
+  version: "1.8.0"
 
 package:
   name: watertap
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/w/watertap/watertap-${{ version }}.tar.gz
-  sha256: bb7a6c51d934214330f8029bc842fe9fbdc84feea49d4b268e9587909ce64a3a
+  sha256: f64776ce506592ffea3439789998f38723a2f5340aab6bfd927e161655995742
 
 build:
   number: 0
@@ -45,7 +45,7 @@ tests:
 about:
   summary: WaterTAP modeling library
   license: BSD-3-Clause
-  license_file: 
+  license_file:
     - LICENSE.md
   homepage: https://www.nawihub.org/knowledge/watertap
   repository: https://github.com/watertap-org/watertap
