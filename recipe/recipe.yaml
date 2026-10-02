@@ -23,11 +23,11 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - idaes-pse >=2.12.0
-    - pyomo >=6.6.1
+    - idaes-pse
+    - pyomo
     - watertap-solvers
     - pyyaml
-    - parameter-sweep >=0.2.0
+    - parameter-sweep
     - numpy
     - pint <0.25
     - reaktoro
